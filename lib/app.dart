@@ -1,0 +1,3 @@
+String checkIsOK() {
+  return 'OK';
+}

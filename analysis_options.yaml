@@ -1,0 +1,13 @@
+include: package:lints/recommended.yaml
+
+linter:
+  rules:
+    - camel_case_types
+    - always_declare_return_types
+    - prefer_single_quotes
+analyzer:
+  exclude:
+    - path/to/excluded/files/**
+    - README.md
+    - CHANGELOG.md
+    - test/**
