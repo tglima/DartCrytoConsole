@@ -13,9 +13,7 @@ int run(List<String> arguments) {
 
   final ArgResults argResults = parser.parse(arguments);
 
-  if (!_validateArguments(argResults)) {
-    return exitCode;
-  }
+  if (!_validateArguments(argResults)) return exitCode;
 
   CryptoUtil cryptoUtil = CryptoUtil();
 
@@ -41,9 +39,7 @@ int run(List<String> arguments) {
       exitCode = 1;
   }
 
-  if (!resultDTO.hasSuccess) {
-    return exitCode;
-  }
+  if (!resultDTO.hasSuccess) return exitCode;
 
   print(resultDTO.object.toString());
   exitCode = 0;
