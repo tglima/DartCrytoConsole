@@ -6,6 +6,13 @@ homepage: https://tglima.github.io/
 environment:
   sdk: '>=2.17.5 <3.0.0'
 
+publish_to: none
+dependencies:
+    tglima_dart_framework: 
+        git:
+            url: https://github.com/tglima/Dart-Framework
+            ref: main
+            version: ^0.1.20220807
 
 dev_dependencies:
   lints: ^2.0.0
