@@ -8,6 +8,7 @@ environment:
 
 publish_to: none
 dependencies:
+    args: ^2.3.1
     tglima_dart_framework: 
         git:
             url: https://github.com/tglima/Dart-Framework
