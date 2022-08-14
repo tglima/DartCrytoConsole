@@ -1,6 +1,6 @@
 name: dart_cryto_console
 description: Console application that allows you to encrypt and decrypt texts in a simple way.
-version: 0.1.20220813
+version: 0.1.20220814
 homepage: https://tglima.github.io/
 
 environment:
