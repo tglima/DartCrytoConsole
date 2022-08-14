@@ -1,5 +1,5 @@
 import 'package:test/test.dart';
-import 'package:dart_cryto_console/app.dart' as app;
+import 'package:dart_cryto_console/dart_crypto_console.dart' as app;
 
 void main() {
   test('cryptDefaultKey', () {
