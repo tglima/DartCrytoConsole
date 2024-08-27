@@ -20,7 +20,7 @@ For downloads and more information visit the [Wiki](https://github.com/tglima/Da
 
 
 ## Requirements to build desktop version
-* [Dart SDK](https://dart.dev/get-dart) 2.17.x
+* [Dart SDK](https://dart.dev/get-dart) 3.5.x
 * [stagehand](https://pub.dev/documentation/stagehand/latest/stagehand/stagehand-library.html)
 
 ### Active stagehand
